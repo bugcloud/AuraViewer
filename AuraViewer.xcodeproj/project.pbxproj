@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD95924518F3F79600EC4993 /* AVRAuraLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD95924418F3F79600EC4993 /* AVRAuraLayer.m */; };
+		DD96547A18EEF6AE00D7183D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD96547918EEF6AE00D7183D /* Foundation.framework */; };
+		DD96547C18EEF6AE00D7183D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD96547B18EEF6AE00D7183D /* CoreGraphics.framework */; };
+		DD96547E18EEF6AE00D7183D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD96547D18EEF6AE00D7183D /* UIKit.framework */; };
+		DD96548418EEF6AE00D7183D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD96548218EEF6AE00D7183D /* InfoPlist.strings */; };
+		DD96548618EEF6AE00D7183D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96548518EEF6AE00D7183D /* main.m */; };
+		DD96548A18EEF6AE00D7183D /* AVRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96548918EEF6AE00D7183D /* AVRAppDelegate.m */; };
+		DD96548D18EEF6AE00D7183D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD96548B18EEF6AE00D7183D /* Main.storyboard */; };
+		DD96549218EEF6AE00D7183D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD96549118EEF6AE00D7183D /* Images.xcassets */; };
+		DD9654AF18EEF73600D7183D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9654AE18EEF73600D7183D /* AVFoundation.framework */; };
+		DD9654B318EEF87A00D7183D /* AVRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9654B218EEF87A00D7183D /* AVRViewController.m */; };
+		DD9654B718EEF8A600D7183D /* AVRAVManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9654B618EEF8A600D7183D /* AVRAVManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD95924318F3F79600EC4993 /* AVRAuraLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVRAuraLayer.h; sourceTree = "<group>"; };
+		DD95924418F3F79600EC4993 /* AVRAuraLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVRAuraLayer.m; sourceTree = "<group>"; };
+		DD96547618EEF6AE00D7183D /* AuraViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuraViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD96547918EEF6AE00D7183D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD96547B18EEF6AE00D7183D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD96547D18EEF6AE00D7183D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD96548118EEF6AE00D7183D /* AuraViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AuraViewer-Info.plist"; sourceTree = "<group>"; };
+		DD96548318EEF6AE00D7183D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD96548518EEF6AE00D7183D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD96548718EEF6AE00D7183D /* AuraViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AuraViewer-Prefix.pch"; sourceTree = "<group>"; };
+		DD96548818EEF6AE00D7183D /* AVRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVRAppDelegate.h; sourceTree = "<group>"; };
+		DD96548918EEF6AE00D7183D /* AVRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVRAppDelegate.m; sourceTree = "<group>"; };
+		DD96548C18EEF6AE00D7183D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD96549118EEF6AE00D7183D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD96549818EEF6AE00D7183D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DD9654AE18EEF73600D7183D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DD9654B118EEF87A00D7183D /* AVRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVRViewController.h; sourceTree = "<group>"; };
+		DD9654B218EEF87A00D7183D /* AVRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVRViewController.m; sourceTree = "<group>"; };
+		DD9654B518EEF8A600D7183D /* AVRAVManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVRAVManager.h; sourceTree = "<group>"; };
+		DD9654B618EEF8A600D7183D /* AVRAVManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVRAVManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD96547318EEF6AE00D7183D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9654AF18EEF73600D7183D /* AVFoundation.framework in Frameworks */,
+				DD96547C18EEF6AE00D7183D /* CoreGraphics.framework in Frameworks */,
+				DD96547E18EEF6AE00D7183D /* UIKit.framework in Frameworks */,
+				DD96547A18EEF6AE00D7183D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD95924218F3F79600EC4993 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD95924318F3F79600EC4993 /* AVRAuraLayer.h */,
+				DD95924418F3F79600EC4993 /* AVRAuraLayer.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD96546D18EEF6AE00D7183D = {
+			isa = PBXGroup;
+			children = (
+				DD96547F18EEF6AE00D7183D /* AuraViewer */,
+				DD96547818EEF6AE00D7183D /* Frameworks */,
+				DD96547718EEF6AE00D7183D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD96547718EEF6AE00D7183D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD96547618EEF6AE00D7183D /* AuraViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD96547818EEF6AE00D7183D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD9654AE18EEF73600D7183D /* AVFoundation.framework */,
+				DD96547918EEF6AE00D7183D /* Foundation.framework */,
+				DD96547B18EEF6AE00D7183D /* CoreGraphics.framework */,
+				DD96547D18EEF6AE00D7183D /* UIKit.framework */,
+				DD96549818EEF6AE00D7183D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD96547F18EEF6AE00D7183D /* AuraViewer */ = {
+			isa = PBXGroup;
+			children = (
+				DD96548818EEF6AE00D7183D /* AVRAppDelegate.h */,
+				DD96548918EEF6AE00D7183D /* AVRAppDelegate.m */,
+				DD9654B418EEF88400D7183D /* AVManager */,
+				DD95924218F3F79600EC4993 /* View */,
+				DD9654B018EEF87A00D7183D /* ViewController */,
+				DD96548B18EEF6AE00D7183D /* Main.storyboard */,
+				DD96549118EEF6AE00D7183D /* Images.xcassets */,
+				DD96548018EEF6AE00D7183D /* Supporting Files */,
+			);
+			path = AuraViewer;
+			sourceTree = "<group>";
+		};
+		DD96548018EEF6AE00D7183D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD96548118EEF6AE00D7183D /* AuraViewer-Info.plist */,
+				DD96548218EEF6AE00D7183D /* InfoPlist.strings */,
+				DD96548518EEF6AE00D7183D /* main.m */,
+				DD96548718EEF6AE00D7183D /* AuraViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD9654B018EEF87A00D7183D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD9654B118EEF87A00D7183D /* AVRViewController.h */,
+				DD9654B218EEF87A00D7183D /* AVRViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DD9654B418EEF88400D7183D /* AVManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD9654B518EEF8A600D7183D /* AVRAVManager.h */,
+				DD9654B618EEF8A600D7183D /* AVRAVManager.m */,
+			);
+			path = AVManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD96547518EEF6AE00D7183D /* AuraViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9654A818EEF6AE00D7183D /* Build configuration list for PBXNativeTarget "AuraViewer" */;
+			buildPhases = (
+				DD96547218EEF6AE00D7183D /* Sources */,
+				DD96547318EEF6AE00D7183D /* Frameworks */,
+				DD96547418EEF6AE00D7183D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuraViewer;
+			productName = AuraViewer;
+			productReference = DD96547618EEF6AE00D7183D /* AuraViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD96546E18EEF6AE00D7183D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AVR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = bugcloud;
+			};
+			buildConfigurationList = DD96547118EEF6AE00D7183D /* Build configuration list for PBXProject "AuraViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD96546D18EEF6AE00D7183D;
+			productRefGroup = DD96547718EEF6AE00D7183D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD96547518EEF6AE00D7183D /* AuraViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD96547418EEF6AE00D7183D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD96549218EEF6AE00D7183D /* Images.xcassets in Resources */,
+				DD96548418EEF6AE00D7183D /* InfoPlist.strings in Resources */,
+				DD96548D18EEF6AE00D7183D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD96547218EEF6AE00D7183D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9654B718EEF8A600D7183D /* AVRAVManager.m in Sources */,
+				DD95924518F3F79600EC4993 /* AVRAuraLayer.m in Sources */,
+				DD96548A18EEF6AE00D7183D /* AVRAppDelegate.m in Sources */,
+				DD9654B318EEF87A00D7183D /* AVRViewController.m in Sources */,
+				DD96548618EEF6AE00D7183D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD96548218EEF6AE00D7183D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD96548318EEF6AE00D7183D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD96548B18EEF6AE00D7183D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD96548C18EEF6AE00D7183D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD9654A618EEF6AE00D7183D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD9654A718EEF6AE00D7183D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD9654A918EEF6AE00D7183D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AuraViewer/AuraViewer-Prefix.pch";
+				INFOPLIST_FILE = "AuraViewer/AuraViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD9654AA18EEF6AE00D7183D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AuraViewer/AuraViewer-Prefix.pch";
+				INFOPLIST_FILE = "AuraViewer/AuraViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD96547118EEF6AE00D7183D /* Build configuration list for PBXProject "AuraViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9654A618EEF6AE00D7183D /* Debug */,
+				DD9654A718EEF6AE00D7183D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9654A818EEF6AE00D7183D /* Build configuration list for PBXNativeTarget "AuraViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9654A918EEF6AE00D7183D /* Debug */,
+				DD9654AA18EEF6AE00D7183D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD96546E18EEF6AE00D7183D /* Project object */;
+}
